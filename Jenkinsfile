@@ -4,6 +4,7 @@ pipeline {
        stage("step1") {
             steps {
                  sh "echo step1...."
+                 load "steps.groovy"
             }
        }
 
