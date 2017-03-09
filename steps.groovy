@@ -1,3 +1,5 @@
-{ ->
-   sh "echo this is the load scripts!" 
+def Testcall() {
+    sh 'echo this is the load scripts"
 }
+
+return this
