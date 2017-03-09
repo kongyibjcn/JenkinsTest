@@ -1,7 +1,3 @@
 { ->
-
-  steps {
-      sh "echo this is the load scripts!"
-  }
-  
+   sh "echo this is the load scripts!" 
 }
