@@ -4,7 +4,8 @@ pipeline {
        stage("step1") {
             steps {
                  sh "echo step1...."
-                 load "steps.groovy"
+                 def mstep = load "steps.groovy"
+                 mystep.Testcall()
             }
        }
 
